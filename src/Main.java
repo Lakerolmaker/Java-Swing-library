@@ -1,51 +1,19 @@
-import JackeLibrary.*;
-import static JackeLibrary.Input.*;
-
-
-import java.awt.EventQueue;
-import java.awt.Toolkit;
-import java.awt.event.AWTEventListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseListener;
-import java.lang.management.ManagementFactory;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
+import JackeLibrary.UI;
 
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-
-import com.sun.glass.events.MouseEvent;
-import com.sun.management.OperatingSystemMXBean;
 
 public class Main {
 
+	//: Holds the object
 	public static UI temperatureConveter;
 	public static UI frame1;
-	public static UI frame3;
-	public static UIEvent frame2;
 	
-	//: For the tempeture conveter:
+	
+	//: For the tempeture conveter
 	public static String conversionMethod = "";
 	
 	public static void main(String[] args) {
-		
-
-		//Toolkit.getDefaultToolkit().getImage(temperatureConveter.frame.class.getResource("image.png"))
-
-		//Toolkit.getDefaultToolkit().getImage();
-	
-		//frame2 = new UIEvent("framename", "element mover", false, ()-> keypressCallback());
-	     
-	     //UI.removeUI("MyFrame");
-		
-		 //$.NewPostParamter("data", "42");
-		 //$.post();
-		
-		
+			
 		teperatureConverter();
 		
 		frame1 = new UI("Frame" , "Test frame", 400 , 400 ,false , false);
@@ -75,13 +43,11 @@ public class Main {
 		
 	} 
 	
-	
 	private static void printslidervalue() {
 		
-		print(frame1.getDropdownItem("mydropdown"));		
+		System.out.println(frame1.getDropdownItem("mydropdown"));		
 		
 	}
-	
 	
 	//: initialize the teperature conveters
 	private static void teperatureConverter() {
@@ -97,7 +63,6 @@ public class Main {
 	}
 	
 	//: The call back function.
-	
 	private static void buttoncallback(String buttonName) {
 		//:If the convert buton was pressed
 		if((buttonName == "convert") && (conversionMethod != "")){
@@ -137,7 +102,6 @@ public class Main {
 	}
 	
 	//: The function that calculated the temperature
-	
 	private static void calculateTemperature() {
 		//: Gets the input from the user
 		String input = temperatureConveter.GetTextFieldText("InputField");
@@ -180,27 +144,6 @@ public class Main {
 	}// end calculateTemperature()
 	
 	
-	public static void keypressCallback() {
-		
-		char button = frame2.buttonPressed;
-		
-		console.log("Button pressed : " + button + "\n" );
-		//console.log("Button pressed : " + frame2.keyCode + "\n" );
-	
-		
-		if(button == 'f') {
-			frame1.updateobject( "button" ,"Convert", -1, 0);
-		}else if(button == 'h') {
-			frame1.updateobject("button" ,"Convert", 1, 0);
-		}else if(button == 't') {
-			frame1.updateobject("button" ,"Convert", 0, -1);
-		}else if(button == 'g') {
-			frame1.updateobject("button" ,"Convert", 0, 1);
-		}
-		
-		
-		
-	}
 
 }
 
