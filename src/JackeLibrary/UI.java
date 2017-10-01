@@ -125,6 +125,8 @@ public class UI {
 		panel.add(label);
 		
 		frame.add(panel);
+		
+		activelabels.add(label);
 	
 	}
 	

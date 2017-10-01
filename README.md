@@ -1,6 +1,6 @@
 # Java Swing library
 
-This is a very simple and easy to use Java - Swing library i made.
+This is a simple and easy to use Java - Swing library i made.
 
 It´s uses coordinates to position the elements inside the frame.
 
