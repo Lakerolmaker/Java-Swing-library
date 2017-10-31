@@ -6,7 +6,7 @@ It´s uses coordinates to position the elements inside the frame.
 
 
 The framework is dependent on the files inside the UILibrary folder,
-[UI.java](https://github.com/Lakerolmaker/Java-Swing-library/tree/master/UILibrary)
+[UILibrary](https://github.com/Lakerolmaker/Java-Swing-library/tree/master/UILibrary)
 .
 
 
