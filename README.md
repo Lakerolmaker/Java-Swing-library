@@ -74,7 +74,6 @@ FontFamily can be a standard font FontFamily , Font the class Font
 
 frameName.lable.setFontSize( ID , size);
 
-* ### Label
 
 * ### progressbar
 
