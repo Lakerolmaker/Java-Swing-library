@@ -15,4 +15,10 @@ in the top of the import field.
 
 ## Example
 
-* hello
+* Creating the main window
+
+Using X & Y coordinates to place the window on the screen : 
+UI frameName = new UI( ID , WindowTitle , X , Y , Width , Height , FullscreenToogle , mainWindowToogle);
+
+Without coordinates ( places the window in the center of the screen) :
+UI frameName = new UI( ID , WindowTitle , Width , Height , FullscreenToogle , mainWindowToogle);
