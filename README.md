@@ -31,3 +31,17 @@ UI frameName = new UI( ID , WindowTitle , Width , Height , FullscreenToogle , ma
 • FullscreenToogle : If the program should be maximized from the start.
 
 • MainWindowToogle : If the window should quit the program if closed
+
+
+
+* ### Adding components
+
+#### Button
+
+frameName.addButton( ID,  x ,  y , width , height , ()->CallbackFunction);
+
+#### Textfield
+
+framename.addTextField( ID,  deafualtInput,  x , y , width , height);
+
+deafualtInput : If something should be added to the text field when created
