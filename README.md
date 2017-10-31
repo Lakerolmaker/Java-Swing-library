@@ -51,11 +51,10 @@ deafualtInput = If something should be added to the text field when created
 framename.addTextField( ID,  deafualtInput,  x , y , width , height);
 
 
-## Example
+## Customize Items
 
-* ### Customize Items
 
-### Label
+* ### Label
 
 ### setborder : Sets the border of the label , using the border class
 
@@ -68,4 +67,4 @@ borderkind can be changed to the chosen border.
 
 frameName.lable.setFontFamliy( ID ,  FontFamily );
 
-borderkind can be changed to the chosen border.
+FontFamily can be a standard font FontFamily , From the class Font
