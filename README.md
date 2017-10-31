@@ -44,4 +44,28 @@ frameName.addButton( ID,  x ,  y , width , height , ()->CallbackFunction);
 
 framename.addTextField( ID,  deafualtInput,  x , y , width , height);
 
-deafualtInput : If something should be added to the text field when created
+deafualtInput = If something should be added to the text field when created
+
+#### Textfield
+
+framename.addTextField( ID,  deafualtInput,  x , y , width , height);
+
+
+## Example
+
+* ### Customize Items
+
+### Label
+
+### setborder : Sets the border of the label , using the border class
+
+frameName.lable.setborder( ID ,  border.borderkind );
+
+borderkind can be changed to the chosen border.
+
+
+### setFontFamliy : Sets the border of the label , using the border class
+
+frameName.lable.setFontFamliy( ID ,  FontFamily );
+
+borderkind can be changed to the chosen border.
