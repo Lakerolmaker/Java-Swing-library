@@ -56,15 +56,26 @@ framename.addTextField( ID,  deafualtInput,  x , y , width , height);
 
 * ### Label
 
-### setborder : Sets the border of the label , using the border class
+### setborder : Sets the border , using the border class
 
 frameName.lable.setborder( ID ,  border.borderkind );
 
 borderkind can be changed to the chosen border.
 
 
-### setFontFamliy : Sets the border of the label , using the border class
+### setFontFamliy : Sets the font family using the Font class
 
 frameName.lable.setFontFamliy( ID ,  FontFamily );
 
-FontFamily can be a standard font FontFamily , From the class Font
+FontFamily can be a standard font FontFamily , Font the class Font
+
+
+### setFontSize : Sets the font size
+
+frameName.lable.setFontSize( ID , size);
+
+* ### Label
+
+* ### progressbar
+
+* ### event
