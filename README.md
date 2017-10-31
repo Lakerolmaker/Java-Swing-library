@@ -13,6 +13,13 @@ Simply add the file to your project and then add the reference "import UILibrary
 in the top of the import field.
 
 
+## Installing
+
+1. Add the UILibrary folder to your src folder inside the your project
+
+2. Add the import signature ( import UILibrary.UI; ) at the import section
+
+
 ## Example
 
 * ### Creating the main window
@@ -78,3 +85,7 @@ frameName.lable.setFontSize( ID , size);
 * ### progressbar
 
 * ### event
+
+frameName.event.eventName( ()->callbackfunction  );
+
+callbackfunction is the function that is going to be called when the event is triggerd
