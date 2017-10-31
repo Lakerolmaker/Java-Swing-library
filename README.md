@@ -15,7 +15,7 @@ in the top of the import field.
 
 ## Example
 
-* Creating the main window
+* ### Creating the main window
 
 #### Using X & Y coordinates to place the window on the screen :
 
