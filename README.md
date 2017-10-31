@@ -5,19 +5,17 @@ This is a simple and easy to use Java - Swing library i made.
 It´s uses coordinates to position the elements inside the frame.
 
 
-The framework is dependent on one simple file,
+The framework is dependent on the UILibrary folder,
 [UI.java](https://github.com/Lakerolmaker/Java-Swing-library/blob/master/src/UILibrary/UI.java)
 .
 
-Simply add the file to your project and then add the reference "import UILibrary.UI;" ,
-in the top of the import field.
 
 
 ## Installing
 
 1. Add the UILibrary folder to your src folder inside the your project
 
-2. Add the import signature ( import UILibrary.UI; ) at the import section
+2. Add the import signature "import UILibrary.UI;" at the import section
 
 
 ## Example
