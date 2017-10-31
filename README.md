@@ -6,8 +6,8 @@ It´s uses coordinates to position the elements inside the frame.
 
 
 The framework is dependent on one simple file,
-[UI.java](https://github.com/Lakerolmaker/Java-Swing-library/blob/master/src/JackeLibrary/UI.java)
+[UI.java](https://github.com/Lakerolmaker/Java-Swing-library/blob/master/src/UILibrary/UI.java)
 .
 
-Simply add the file to your project and then add the reference "import JackeLibrary.UI;" ,
+Simply add the file to your project and then add the reference "import UILibrary.UI;" ,
 in the top of the import field.
