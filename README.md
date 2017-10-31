@@ -22,10 +22,12 @@ Using X & Y coordinates to place the window on the screen :
 UI frameName = new UI( ID , WindowTitle , X , Y , Width , Height , FullscreenToogle , mMainWindowToogle);
 
 
-### Note :
-• FullscreenToogle : If the program should be maximized from the start.
-• MainWindowToogle : If the window should quit the program if closed
-
 Without coordinates ( places the window in the center of the screen) :
 
 UI frameName = new UI( ID , WindowTitle , Width , Height , FullscreenToogle , mainWindowToogle);
+
+
+#### Note :
+• FullscreenToogle : If the program should be maximized from the start.
+
+• MainWindowToogle : If the window should quit the program if closed
